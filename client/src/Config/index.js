@@ -1,5 +1,4 @@
-//CONSTANTES
-require ('dotenv').config();
-export const APIKEY = process.env.REACT_APP_APIKEY
+//aca van las contantes
 
-export const GET_CRYPTOS = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest"
+export const workspace = 'http://localhost:3001/'
+export const GET_CRYPTO = `${workspace}crypto`

@@ -16,9 +16,9 @@ export default function Footer(){
             <img src={Logo} className="footer-logo" alt="not found"/>
             <div className="menu-r-container">
                 <ul className="menu-right">
-                    <li><a href="https://www.youtube.com/channel/UCFbMgLQ8gkFIVb6LuSUUT6Q"><FaYoutube/></a></li>
-                    <li><a href="https://t.me/CoinaryTV"><FaTelegramPlane/></a></li>
-                    <li><a href="https://dragonary.com/es/"><FaDragon/></a></li>
+                    <li className="item-li"><a href="https://www.youtube.com/channel/UCFbMgLQ8gkFIVb6LuSUUT6Q"><FaYoutube/></a></li>
+                    <li className="item-li"><a href="https://t.me/CoinaryTV"><FaTelegramPlane/></a></li>
+                    <li className="item-li"><a href="https://dragonary.com/es/"><FaDragon/></a></li>
                 </ul>
             </div>
         </footer>

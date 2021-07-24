@@ -29,7 +29,7 @@
 }
 .menu-right{
     list-style-type: none;
-    font-size:1,1em;
+    font-size:1.1em;
 }
 
 .menu-l-container{
@@ -39,4 +39,10 @@
 .menu-r-container{
     min-width:5.5em;
 }
+
+.item-li a{
+    &:visited{
+        color: #d5d5d5;
+    }
+ }
 

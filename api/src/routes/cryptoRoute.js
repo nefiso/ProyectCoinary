@@ -1,8 +1,8 @@
 const { Router } = require('express');
 const router = Router();
-const cryptoRouter = require('./cryptoRoute')
+const {getCrypto} = require ('../controllers/CryptoController')
 
 // Configurar los routers
-router.use('/crypto', cryptoRouter);
+router.get('/', getCrypto);
 
 module.exports = router;

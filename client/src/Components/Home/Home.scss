@@ -1,3 +1,19 @@
+
+.container-home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.column-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 .dragonary-banner{
     width: 80%;
+
 }
